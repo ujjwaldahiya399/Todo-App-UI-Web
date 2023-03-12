@@ -1,0 +1,275 @@
+.container{
+    display: block;
+    justify-content: space-around;
+    /* align-items: center;; */
+    top: 0px;
+    left: 0px;
+    /* width: 110em; */
+    height: 1368px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* margin-left: 5%; */
+  }
+  .tasklist{
+    display: flex;
+    justify-content: flex-start;
+    top: 0px;
+    left: 0px;
+    /* width: 101em; */
+    height: 94px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+    padding-left: 10%;
+  }
+  .backandaddnewtask{
+    display: flex;
+    justify-content: center;
+    margin-top:5em;
+    margin-left: 9.7em;
+  }
+  .backimgandtxt{
+    display:flex;
+    margin-right: 10em;
+  }
+  .backarroeimg{
+    display:flex;
+    height:45px;
+  }
+  .addnewtaskicon{
+    display: flex;
+    top: 142px;
+    text-decoration: none;
+    left: 1000px;
+    /* width: 160px; */
+    height: 26px;
+    text-align: center;
+    font: normal normal normal 22px/26px Inter;
+    letter-spacing: 0px;
+    color: #424242;
+    opacity: 1;
+    margin-right: 15em;
+  }
+  .textaddnewtask{
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: 0.8em;
+    letter-spacing: 0px;
+    opacity: 1;
+    color:#424242;
+    font: normal normal normal 22px/26px Inter;
+  }
+  .plusImg{
+    display:flex;
+    width: 2em;
+    height: 2em;
+  }
+  .backtxt{
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: 0.4em;
+    letter-spacing: 0px;
+    opacity: 1;
+    color:#424242;
+    font: normal normal normal 22px/26px Inter;
+  }
+  a {
+    text-decoration: none;
+  }
+  .same{
+    display: block;
+    width: 500px;
+    height: 350px;
+    margin-top:4em;
+    margin-left:36em;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+  }
+  .same:hover{
+    box-shadow: -0.5em -0.5em 0.5em -0.4em;
+    opacity: 1.5;
+    transition: ease-out 0.3;
+  }
+  .trptoparistxt{
+    display: flex;
+    color: #00A5EC;
+    top: 254px;
+    left: 169px;
+    width: 370px;
+    height: 24px;
+    text-align: left;
+    /* font: normal normal medium 20px/24px Inter; */
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 3em;
+    /* margin-top: 3em; */
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  hr{
+    top: 305px;
+    left: 139px;
+    width: 470px;
+    height: 0px;
+    border: 1px solid #EDEDED;
+    opacity: 1;
+    margin-top: 2em;
+  }
+  .tickandvisittochurchtxt{
+    display: flex;
+    justify-content: space-between;
+    margin-top:2em;
+  }
+  .tick{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 3em;
+    margin-top: 0.6em;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .vstchrchtxt{
+    display: flex;
+    margin-right: 17em;
+    text-decoration: line-through;
+    color: #C2C2C2;
+    /* font: normal normal normal 18px/21px Inter; */
+    letter-spacing: 0px;
+  }
+  .shopngandcheckbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top:1em;
+  }
+  .checkbox{
+    display: flex;
+    margin-left: 3em;
+    margin-top: 0.64em;
+    top: 390px;
+    left: 169px;
+    width: 30px;
+    height: 30px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .shopngtxt{
+    display: flex;
+    margin-right: 18.4em;
+    color: #424242;
+    opacity: 1;
+    /* font: normal normal normal 18px/21px Inter; */
+    letter-spacing: 0px;
+  }
+  .modal{
+    top: 260px;
+    left: 583px;
+    width: 500px;
+    height: 300px;
+    visibility: hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    gap: 15px;
+    position: fixed;
+    display: flex;
+    /* backdrop-filter: blur(0.3);
+    background-color: rgb(100, 98, 98);; */
+    /* justify-content: flex-start;
+    align-items: center; */
+  }
+   :target{
+    visibility: visible;
+    opacity: 1;
+   }
+  .modal_inner {
+    display: block;
+    background-color: #ffffff;
+    width: 500px;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .crossandtxt{
+    display: flex;
+    justify-content: space-around;
+  }
+  .icn{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: gray;
+    margin-top: 1.4em;
+  }
+  .addnewtsktxt{
+    top: 204px;
+    left: 300px;
+    width: 151px;
+    height: 26px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 22px/26px Inter;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    margin-right: 11.2em;
+    margin-top: 2em;
+  }
+  .learnctxt{
+    display: flex;
+    top: 290px;
+    left: 467px;
+    width: 420px;
+    height: 30px;
+    margin-top: 3em;
+    margin-left: 2em;
+    text-align: left;
+    font: normal normal normal 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #858585;
+    opacity: 1;
+    background-color: #F7F7F7;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .btnandtxt{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:2em;
+  }
+  .addtsk{
+    display: flex;
+    /* flex-direction:; */
+    width: 15em;
+    height:4em;
+    background-color: #00A5EC;
+    color:#FFFFFF;
+    font-size: 15px;
+    border-radius: 4px;
+    padding-top: 1em;
+    margin-right:2em;
+  }
+  .plsImg{
+    display:flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 1em;
+    margin-top: 0em;
+  }
+  
+  .at{
+    display: flex;
+    /* height: 15px; */
+    margin-left: 2em;
+    margin-top: 0.3em;
+    font-size: 18px;
+  }
