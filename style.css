@@ -243,12 +243,13 @@ hr{
 .footer{
   display: inline-flex;
 }
+
 .modal{
   top: 200px;
   left: 553px;
   width: 550px;
   height: 300px;
-  visibility: hidden;
+  /* visibility: hidden; */
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 20px #67676729;
   border: 1px solid #EDEDED;
@@ -348,4 +349,6 @@ hr{
   margin-top: 0.3em;
   font-size: 18px;
 }
-
+.blur{
+  filter: blur(2px);
+}

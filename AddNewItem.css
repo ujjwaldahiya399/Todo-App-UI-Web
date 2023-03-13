@@ -273,3 +273,113 @@
     margin-top: 0.3em;
     font-size: 18px;
   }
+.modal{
+  top: 230px;
+  left: 583px;
+  width: 500px;
+  height: 300px;
+  /* visibility: hidden; */
+  visibility: visible;;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #67676729;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  opacity: 1;
+  gap: 15px;
+  position: fixed;
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: center; */
+}
+ :target{
+  visibility: visible;
+  opacity: 1;
+ }
+.modal_inner {
+  display: block;
+  background-color: #ffffff;
+  width: 500px;
+  max-width: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.crossandtxt{
+  display: flex;
+  justify-content: space-between;
+}
+.icn{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  color: gray;
+  margin-top: 1.4em;
+  margin-right: 1.7em;
+}
+.addnewtsktxt{
+  top: 204px;
+  left: 453px;
+  width: 151px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 22px/26px Inter;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.learnctxt{
+  display: flex;
+  top: 290px;
+  left: 467px;
+  width: 450px;
+  height: 30px;
+  margin-top: 3em;
+  margin-left: 2em;
+  text-align: left;
+  font: normal normal normal 16px/20px Inter;
+  letter-spacing: 0px;
+  color: #858585;
+  opacity: 1;
+  background-color: #F7F7F7;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  border: 1px solid #EDEDED;
+  border-radius: 4px;
+  opacity: 1;
+}
+.btnandtxt{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top:2em;
+}
+.addtsk{
+  display: flex;
+  /* flex-direction:; */
+  width: 15em;
+  height:4em;
+  background-color: #00A5EC;
+  color:#FFFFFF;
+  font-size: 15px;
+  border-radius: 4px;
+  padding-top: 1em;
+}
+.plsImg{
+  display:flex;
+  width: 30px;
+  height: 30px;
+  margin-left: 1em;
+  margin-top: 0em;
+}
+
+.at{
+  display: flex;
+  /* height: 15px; */
+  margin-left: 2em;
+  margin-top: 0.3em;
+  font-size: 18px;
+}
+.blur{
+  filter: blur(2px);
+}
