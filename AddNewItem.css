@@ -382,4 +382,6 @@
 }
 .blur{
   filter: blur(2px);
+  background-color: gainsboro;
+
 }
